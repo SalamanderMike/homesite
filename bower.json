@@ -1,0 +1,32 @@
+{
+  "name": "Home Website",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SalamanderMike/homepage",
+  "authors": [
+    "Michael <salamandermike@gmail.com>"
+  ],
+  "description": "Developer home site for Michael McClure",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "homepage",
+    "michael",
+    "mcclure"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.*",
+    "angular-route": "1.2.*",
+    "angular-animate": "1.2.*",
+    "angular-bootstrap": "0.11.2",
+    "bootstrap": "3.2.0"
+  }
+}

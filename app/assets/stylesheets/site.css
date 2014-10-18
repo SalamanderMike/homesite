@@ -1,0 +1,60 @@
+html body{
+  position: relative;
+  text-align: center;  background: url(jupiter_backdrop.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-custom {
+  color: #000;
+  background-color: #000;
+  border: 1px solid #424242;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+.navButtonLeft {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: transparent;
+  border: 0px;
+  color: #0074ad;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+}
+
+.navButtonRight {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  background-color: transparent;
+  border: 0px;
+  color: #0074ad;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.construction {
+  font-size: 4em;
+  cursor: pointer;
+}
+
+#wrap {
+
+
+}
+
+.container {
+
+
+}
+

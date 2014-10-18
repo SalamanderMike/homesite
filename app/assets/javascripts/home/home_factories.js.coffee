@@ -1,0 +1,1 @@
+HomeFactories = angular.module("HomeFactories", [])
