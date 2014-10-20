@@ -43,9 +43,21 @@ html body{
   cursor: pointer;
 }
 
-.construction {
-  font-size: 4em;
-  cursor: pointer;
+#construction p{
+  color: #e8e8e8;
+  font-size: 2em;
+}
+#construction a{
+  color: #2db5cd;
+  font-size: 2em;
+}
+#construction .description{
+
+  font-size: 1em;
+}
+#construction p a{
+  font-size: 1em;
+  font-style: underline;
 }
 
 #wrap {
