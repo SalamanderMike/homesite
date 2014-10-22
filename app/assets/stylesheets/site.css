@@ -2,51 +2,81 @@ html {
   background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
   height: 100%;
 }
-
 body {
-background-color: transparent;
+background: transparent;
 }
 
-#construction {
-  position: relative;
-  color: transparent;
-  text-align: center;
-}
-
-.navbar-custom {
-  color: #000;
-  background-color: #000;
+/* NAVBAR **********************************************************/
+.navbar-default {
+  background: #000;
+  color: #0074ad;
   border: 1px solid #424242;
   font-family: 'Raleway', sans-serif;
   font-size: 2em;
 }
 
-.navButtonLeft {
+.navbar-default .navbar-nav .dropdown-menu{
+  background: transparent;
+  top: 2.25em;
+  right: -0.5em;
+  padding: 10px;
+}
+
+#navButtonLeft {
   position: absolute;
+  background: transparent;
   top: 5px;
   left: 5px;
-  background-color: transparent;
   border: 0px;
-  color: #0074ad;
-  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   cursor: pointer;
 }
 
-.dropdown {
-  background: black;
-}
-
-.navButtonRight {
+#navDropRight {
   position: absolute;
+  background: transparent;
   top: 7px;
   right: 20px;
-  background-color: transparent;
   border: 0px;
-  color: #0074ad;
-  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   cursor: pointer;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  top: 2.25em;
+  right: -0.5em;
+  padding: 10px;
+  background: rgba(0,0,0,0.25);
+  color:#0074ad;
+}
+
+.dropdown:focus .dropdown-menu {
+  display: block;
+  top: 2.25em;
+  right: -0.5em;
+  padding: 10px;
+  background: rgba(0,0,0,0.25);
+  color:#0074ad;
+}
+
+.navbar-default .navbar-nav .dropdown-menu li a {
+  color:#2db5cd;
+}
+
+.dropdown-menu li a:hover {
+  background:rgba(0,0,0,0.35);
+}
+
+.dropdown .divider {
+  background: #d18400;
+}
+
+/* UNDER CONSTRUCTION -TEMPORARY ************************************/
+#construction {
+  position: relative;
+  color: transparent;
+  text-align: center;
 }
 
 #construction p{
@@ -57,6 +87,12 @@ background-color: transparent;
   color: #2db5cd;
   font-size: 2em;
 }
+#construction a:active {
+  color: #d18400;
+  font-size: 1.5em;
+}
+
+
 #construction .description{
 
   font-size: 1em;
@@ -65,6 +101,9 @@ background-color: transparent;
   font-size: 1em;
   font-style: underline;
 }
+
+
+/* CONTAINERS **********************************************************/
 
 #wrap {
 
