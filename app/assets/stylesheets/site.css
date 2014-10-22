@@ -72,6 +72,12 @@ background: transparent;
   background: #d18400;
 }
 
+#name {
+  position: relative;
+  visibility: hidden;
+  top: 5px;
+}
+
 /* UNDER CONSTRUCTION -TEMPORARY ************************************/
 #construction {
   position: relative;
@@ -92,7 +98,6 @@ background: transparent;
   font-size: 1.5em;
 }
 
-
 #construction .description{
 
   font-size: 1em;
@@ -100,6 +105,23 @@ background: transparent;
 #construction p a{
   font-size: 1em;
   font-style: underline;
+}
+
+
+/* IPHONE READY **********************************************************/
+@media (max-width: 768px) {
+  html {
+    background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
+    -webkit-background-size: 50% 100%;
+  }
+  #name {
+    visibility: visible;
+  }
+  #construction p{
+    color: #d18400;
+    font-size: 4em;
+  }
+
 }
 
 
