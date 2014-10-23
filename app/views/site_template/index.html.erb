@@ -1,23 +1,21 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class=" navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-left">
-        <button id="navButtonLeft" ng-click="home.homePage()">Michael McClure</button>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <div id="navDropRight" class="dropdown" is-open="home.toggleDropdown">
-          <a href class="dropdown-toggle">Navigation<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a ng-click="home.aboutMe()">About Me</a></li>
-            <li class="divider"></li>
-            <li><a ng-click="home.portfolio()">My Portfolio!</a></li>
-            <li><a ng-click="home.contactMe()">Contact Me</a></li>
-          </ul>
-        </div>
+  <ul class="nav navbar-nav navbar-left">
+    <button id="navButtonLeft" ng-click="home.homePage()">Michael McClure</button>
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    <div id="navDropRight" class="dropdown" is-open="home.toggleDropdown">
+      <a href class="dropdown-toggle">Navigation<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a ng-click="home.aboutMe()">About Me</a></li>
+        <li class="divider"></li>
+        <li><a ng-click="home.portfolio()">My Portfolio!</a></li>
+        <li><a ng-click="home.contactMe()">Contact Me</a></li>
       </ul>
     </div>
-    <div style="text-align:center;">
-      <div id="name">Michael McClure</div>
-    </div>
+  </ul>
+  <div style="text-align:center;">
+    <div id="name">Michael McClure</div>
+  </div>
   </div>
 </nav>
 

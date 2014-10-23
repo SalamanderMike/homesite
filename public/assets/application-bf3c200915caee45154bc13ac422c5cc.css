@@ -6356,6 +6356,7 @@ background: transparent;
   }
   #construction a{
     font-size: 5em;
+    z-index: 1;
   }
   #construction .description{
     font-size: 4em;
@@ -6366,16 +6367,4 @@ background: transparent;
 
 }
 
-
-/* CONTAINERS **********************************************************/
-
-#wrap {
-
-
-}
-
-.container {
-
-
-}
 
