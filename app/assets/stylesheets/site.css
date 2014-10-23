@@ -81,7 +81,7 @@ background: transparent;
 /* UNDER CONSTRUCTION -TEMPORARY ************************************/
 #construction {
   position: relative;
-  top: 150px;
+  top: 200px;
   color: transparent;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -90,11 +90,11 @@ background: transparent;
 #construction p{
   position: relative;
   color: #d18400;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #construction a{
   color: #2db5cd;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 #construction a:active {
   color: #d18400;
