@@ -81,12 +81,13 @@ background: transparent;
 /* UNDER CONSTRUCTION -TEMPORARY ************************************/
 #construction {
   position: relative;
-  top: 50px;
+  top: 100px;
   color: transparent;
   text-align: center;
 }
 
 #construction p{
+  position: relative;
   color: #d18400;
   font-size: 2em;
 }
@@ -120,10 +121,10 @@ background: transparent;
     padding: 30px 0;
   }
   #navButtonLeft {
-    color: #000;
+    visibility: hidden;
   }
   #navDropRight {
-    color: #000;
+    visibility: hidden;
   }
   #name {
     visibility: visible;
