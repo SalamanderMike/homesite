@@ -110,7 +110,7 @@ background: transparent;
   font-style: underline;
 }
 /* IPAD READY **********************************************************/
-@media (device-width: 1024px) and (orientation: landscape) {
+@media screen and (device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   html {
     background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
     -webkit-background-size: cover;
