@@ -6342,7 +6342,10 @@ background: transparent;
 }
 
 /* IPHONE READY **********************************************************/
-@media screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2),
+screen and (device-width: 320px) and (min--moz-device-pixel-ratio: 2),
+screen and (device-width: 320px) and (-o-min-device-pixel-ratio: 2/1),
+screen and (device-width: 320px) and (min-device-pixel-ratio: 2){
 
   html {
     background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
