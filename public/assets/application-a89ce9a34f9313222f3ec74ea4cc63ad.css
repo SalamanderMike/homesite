@@ -6302,7 +6302,7 @@ background: transparent;
 /* UNDER CONSTRUCTION -TEMPORARY ************************************/
 #construction {
   position: relative;
-  top: 200px;
+  top: 100px;
   color: transparent;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -6350,6 +6350,9 @@ background: transparent;
   }
   #name {
     visibility: visible;
+  }
+  #construction {
+    top: 200px;
   }
   #construction p{
     font-size: 4em;
