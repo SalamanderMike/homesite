@@ -109,6 +109,7 @@ background: transparent;
   font-size: 1em;
   font-style: underline;
 }
+
 /* IPAD READY **********************************************************/
 @media screen and (device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   html {
