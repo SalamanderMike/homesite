@@ -6337,11 +6337,15 @@ only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px),
 only screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
   html {
-    background: url(jupiter_backdrop.jpg) no-repeat right right top #000;
-    -webkit-background-size: 60% 100%;
-    -moz-background-size: 60% 100%;
-    -o-background-size: 60% 100%;
-    background-size: 60% 100%;
+    background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .navbar-default {
+    font-size: 2em;
+    padding: 10px 0;
   }
 }
 
@@ -6352,11 +6356,11 @@ only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px),
 only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
 
   html {
-    background: url(jupiter_backdrop.jpg) no-repeat right right top #000;
-    -webkit-background-size: 60% 100%;
-    -moz-background-size: 60% 100%;
-    -o-background-size: 60% 100%;
-    background-size: 60% 100%;
+    background: url(jupiter_backdrop.jpg) no-repeat scroll right top #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .navbar-default {
     font-size: 7em;
