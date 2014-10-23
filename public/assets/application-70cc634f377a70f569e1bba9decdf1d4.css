@@ -6307,7 +6307,7 @@ background: transparent;
 }
 
 #construction p{
-  color: #e8e8e8;
+  color: #d18400;
   font-size: 2em;
 }
 #construction a{
@@ -6320,7 +6320,7 @@ background: transparent;
 }
 
 #construction .description{
-
+  color: #e8e8e8;
   font-size: 1em;
 }
 #construction p a{
@@ -6339,7 +6339,15 @@ background: transparent;
     visibility: visible;
   }
   #construction p{
-    color: #d18400;
+    font-size: 4em;
+  }
+  #construction a{
+    font-size: 5em;
+  }
+  #construction .description{
+    font-size: 4em;
+  }
+  #construction p a{
     font-size: 4em;
   }
 
